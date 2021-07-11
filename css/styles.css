@@ -1,0 +1,35 @@
+
+/*-------------------------Universal Styling-------------------*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: sans-serif;
+}
+
+
+/*------------------------Header/Navigation Bar Styling------------------*/
+
+header{
+  background: #D10728;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+}
+
+
+header nav li{
+  display: inline-block;
+  margin-right: 50px;
+
+}
+
+header nav li a{
+  text-decoration: none;
+  color: white;
+
+}
