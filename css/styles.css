@@ -14,9 +14,6 @@ main{
   margin:0px 0px 0px 500px;
 }
 
-section{
-  margin: 40px 0px;
-}
 
 h3{
   margin: 20px 0px;
@@ -94,13 +91,15 @@ span{
 }
 
 .yellow-imac{
+  color: #EFB606;
   position: absolute;
-  top: 400px;
+  top: 450px;
   animation: slide 4s forwards infinite linear;
 
 }
 
 .green-imac{
+  color: #53A679;
   position: absolute;
   top: 700px;
   animation: slide 4.2s forwards infinite linear;
@@ -113,5 +112,42 @@ span{
   to{
     transform: translateX(1000px);
   }
+
+}
+
+/*------------------Hover Section Styling-----------------------------*/
+
+.hover{
+  position: absolute;
+  top: 1600px;
+}
+
+
+
+.blue-imac{
+  color: #0F53AE;
+  width: 200px;
+  transition: 2s;
+
+}
+
+
+.blue:hover {
+  width: 400px;
+  transition: 2s;
+
+}
+
+.purple-imac{
+  color: #510B96;
+  width: 200px;
+  transition: 2s;
+
+}
+
+
+.purple:hover {
+  width: 400px;
+  transition: 2s;
 
 }
