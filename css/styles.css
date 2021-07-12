@@ -65,6 +65,9 @@ header nav li a{
 
 /*------------------Span-Float Section Styling-----------------------------*/
 
+.span-float{
+  color: #EF3F06;
+}
 
 .ninety-eight,
 .twenty-one{
@@ -78,3 +81,8 @@ header nav li a{
 .ninety-eight,
 .twenty-one h3, p{
   text-align: left;}
+
+span{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
