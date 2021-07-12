@@ -18,18 +18,36 @@ header{
   position: fixed;
   width: 100%;
   top: 0;
-
 }
 
 
 header nav li{
   display: inline-block;
   margin-right: 50px;
-
 }
+
 
 header nav li a{
   text-decoration: none;
   color: white;
+}
 
+/*------------------Relative-Absolute Section Styling--------------------*/
+
+main{
+  padding-top: 100px;
+}
+
+
+.red-imac-image-container{
+  position: relative;
+  max-width: 475px;
+}
+
+
+.red-imac-caption-container{
+  position: absolute;
+  top: 0px;
+  color: white;
+  padding: 20px;
 }
