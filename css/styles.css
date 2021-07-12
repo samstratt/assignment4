@@ -8,8 +8,22 @@
   font-family: sans-serif;
 }
 
+main{
+  padding-top: 150px;
+  width: 800px;
+  margin:0px 0px 0px 500px;
+}
 
-/*------------------------Header/Navigation Bar Styling------------------*/
+section{
+  margin: 20px 0px;
+}
+
+h3{
+  margin: 20px 0px;
+}
+
+
+/*----------------Header/Navigation Bar Styling------------------------------*/
 
 header{
   background: #D10728;
@@ -18,6 +32,7 @@ header{
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 99;
 }
 
 
@@ -32,11 +47,7 @@ header nav li a{
   color: white;
 }
 
-/*------------------Relative-Absolute Section Styling--------------------*/
-
-main{
-  padding-top: 100px;
-}
+/*------------------Relative-Absolute Section Styling------------------------*/
 
 
 .red-imac-image-container{
@@ -51,3 +62,19 @@ main{
   color: white;
   padding: 20px;
 }
+
+/*------------------Span-Float Section Styling-----------------------------*/
+
+
+.ninety-eight,
+.twenty-one{
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.ninety-eight,
+.twenty-one h3, p{
+  text-align: left;}
